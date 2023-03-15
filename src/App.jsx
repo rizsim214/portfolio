@@ -7,7 +7,8 @@ import {Contact} from "./components/Contact";
 
 const Container = styled.div`
   color:white;
-  background: url('./images/bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('./images/bg.jpg') no-repeat;
+  background-size: cover;
   height: 100vh;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
